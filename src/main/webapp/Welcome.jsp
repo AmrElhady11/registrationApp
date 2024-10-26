@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ page import="javax.servlet.http.HttpSession,beans.User" %>
-<jsp:useBean id="user" class="beans.User" scope="session" />
+
 
 <%
     User theUser = (User) session.getAttribute("newUser");
