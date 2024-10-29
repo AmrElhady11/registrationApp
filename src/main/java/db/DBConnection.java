@@ -14,7 +14,7 @@ public static Connection connection = null;
 				 String password = "admin";
 
 			Class.forName("com.mysql.jdbc.Driver");
-            Connection connection = DriverManager.getConnection(dbURL,UserName,password);
+                        connection = DriverManager.getConnection(dbURL,UserName,password);
             	
             return connection ;
 		} 
